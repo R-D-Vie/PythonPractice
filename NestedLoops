@@ -1,0 +1,7 @@
+# the code below will draw a rectangle of 100 # in a 10 x 10 grid
+for row in range(0,2,4):
+    for column in range(10):
+        print("#", end="")
+for row in range(1,3):
+    for column in range(10):
+        print("*", end="") # add new line character
